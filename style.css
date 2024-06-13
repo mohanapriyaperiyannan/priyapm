@@ -1,0 +1,467 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.list
+{
+	height: 100px;
+	width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: sans-serif;
+	position: sticky;
+}
+.list h2
+{
+	font-size: 22px;
+	color: orange;
+	margin-left: -10px;
+}
+
+.list1 li 
+{
+	font-size: 18px;
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+ul 
+{
+	height: 100px;
+	width: 60%;
+	border: 1px solid black none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px 30px;
+	margin-right: 15px;
+}
+.menu
+{
+	font-size: 40px;
+	display: none;
+	color: red;
+}
+@media (max-width:1210px)
+{
+	ul li  
+	{
+		display: none;
+	}
+	.menu
+	{
+		display: block;
+		margin-top: 10px;
+		margin-right: -80px;
+	}
+	h2
+	{
+		font-size: 15px;
+		margin-top: 20px;
+		margin-right: 20px; 
+	}
+}
+@media (max-width:478px)
+{
+	h2 
+	{
+		width: 55%;	
+	}
+	.menu
+	{
+		align-items: flex-end;
+	}
+}
+.container1
+{
+	height: auto;
+	max-width: 100%;
+	border: 1px solid none;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+}
+img
+{
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+#carouselExample
+{
+	height: 100%;
+}
+.text1 .t1 
+{
+	margin-top: 50px;
+	text-align: center;
+	color: #000000;
+    font-family: "Barlow Condensed", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 0.1em;
+    letter-spacing: 3.2px;
+}
+.text1 .t2
+{
+	color: darkgray;
+    font-family: "Roboto Condensed", Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+}
+.horizontal 
+{
+	width: 75px;
+	margin-top: 10px;
+	margin-left: 720px;
+	border: 1px solid gray;
+	text-align: center;
+}
+.container2 img 
+{
+	height: 400px;
+	width: 560px;
+}
+.t3  
+{
+	text-align: center;
+	color: #636363;
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    
+}
+@media (max-width:557px)
+{
+	.text1 .t1
+	{
+		margin-left: -10px;
+		font-size: 14px;
+	}
+	.text1 .t2
+	{
+		margin-left: -10px;
+		font-size: 20px;
+	}
+	.horizontal
+	{
+		margin-left: 172px;
+		width: 53px;
+	}
+	
+	.container2 img
+	{
+		margin-left: 120px;
+		height: auto;
+		width: 365px;
+		margin-top: 20px;
+	}
+	.t3 p 
+	{
+		height: auto;
+	}
+}
+/*@media (max-width:562px)*/
+@media (max-width:486px)
+{
+	.text1 .t1
+	{
+		margin-left: 15px;
+		font-size: 13px;
+	}
+	.text1 .t2
+	{
+		margin-left: 12px;
+		font-size: 19px;
+	}
+	.horizontal
+	{
+		margin-left: 180px;
+		width: 50px;
+	}
+	
+	.container2 img
+	{
+		height: auto;
+		width: 280px;
+		margin-left: 50px;
+	}
+	.t3
+	{
+		font-size: 10px;
+		padding: 0px 50px 0px 50px;
+	}
+}
+/*.about 
+{
+	height: 250px;
+	width: 100%;
+	border: 1px solid;
+}
+.about img 
+{
+	height: 250px;
+	width: 100%;
+	background-repeat: no-repeat;
+	object-fit: cover;
+}
+h3
+{
+	position: absolute;
+}
+h4
+{
+	font-family: "Roboto Condensed", Sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-left: 200px;
+ }
+ .texting p
+ {
+ 	font-family: "Barlow Condensed", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 3.2px; 
+    margin-inline-start: 200px;
+}
+.horizontal1
+{
+	width: 85px;
+	margin-inline-start: 200px;
+	border: 1px solid;
+}
+.para1
+{
+	margin-inline-start: 200px;
+	font-family: "Roboto Condensed", Sans-serif;
+	letter-spacing: 1px;
+	font-size: 17px;
+	line-height: 1.5em;
+}
+.towel
+{
+	background-image: url("about us.png");
+	object-fit: cover;
+	height: 330px;
+	margin-top: -400px;
+	margin-left: 800px;
+	width: 520px;
+}
+@media (max-width:1428px)
+{
+	h4
+	{
+		margin: 0px 0px 14.4px 30px;
+		font-size: 12px;
+		width: 100%;
+	}
+	.texting p
+	{
+		margin: 0px 0px 14.4px 30px;
+		font-size: 12px;
+		width: 100%;
+	}
+	.horizontal1
+	{
+		margin: 0px 0px 14.4px 30px;
+	}
+	.para1
+	{
+		margin: 0px 0px 14.4px 30px;
+		font-size: 12px;
+		width: 100%;
+	}
+	.towel
+	{
+		margin: 70px 0px 0px 15px;
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+}
+@media (max-width:737px)
+{
+	h4
+	{
+		width: 100%;
+		padding: 0px 15px 0px 15px;
+	}
+	.texting p
+	{
+		width: 100%;
+		padding: 0px 15px 0px 18px;
+	}
+	.horizontal1
+	{
+		margin: 0px 0px 14.4px 30px;
+	}
+	.para1
+	{
+		width: 100%;
+		padding: 0px 0px 0px 0px;
+		margin: 0px 30px 0px 30px;
+	}
+	.towel
+	{
+		width: 100%;
+		padding: 0px 15px 0px 10px;
+		background-repeat: no-repeat;
+	}
+}
+.grayimg img 
+{
+	height: auto;
+	width: 50%;
+	float: left;
+}
+.grayright div
+{
+	height: 499px;
+	width: 50%;
+	padding: 20px;
+	float: right;
+	background-color: lightgray;
+}
+.grayright h5
+{
+	font-weight: 200;
+	font-size: 30px;
+}
+.grayright p 
+{
+	line-height: 30px;
+}
+.redimg img 
+{
+	height: auto;
+	width: 50%;
+	float: right;
+	margin-left: 150px;
+}
+.redleft div
+{
+	height: 512px;
+	width: 50%;
+	padding: 20px;
+	float: left;
+	margin-top: -512px;
+	background-color: indianred;
+}
+.redleft h5
+{
+	font-weight: 200;
+	font-size: 30px;
+}
+.redleft p 
+{
+	line-height: 30px;
+}
+.brownimg img 
+{
+	height: auto;
+	width: 50%;
+	float: left;
+}
+.brownright div
+{
+	height: 499px;
+	width: 50%;
+	padding: 20px;
+	float: right;
+	background-color: #636363;
+}
+.brownright h5
+{
+	font-weight: 200;
+	font-size: 30px;
+}
+.brownright p 
+{
+	line-height: 30px;
+}
+@media(max-width:916px)
+{
+	.grayimg img 
+	{
+		padding: 40px ;
+	}
+	.grayright div 
+	{
+		margin: 40px;
+		margin-top: 150px;
+	}
+}
+.categorie img 
+{
+	width: 100%;
+	height: 200px;
+	border: 1px solid;
+	margin-top: 25px;
+}
+.para2 p 
+{
+	text-align: center;
+	font-family: "Roboto Condensed", Sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+.horizontal2
+{
+	height: 1px;
+	width: 80px;
+	text-align: center;
+	border: 1px solid gray;
+	margin-left: 700px;
+}
+.para3  
+{
+	text-align: center;
+	font-family: "Roboto Condensed", Sans-serif;
+	font-size: 18px;
+}
+.KAPOK-KITCHEN .KAPOK 
+{
+	height: 470px;
+	width: 500px;
+	margin-left: 200px;
+	padding: 20px 20px 20px 25px;
+	border: 1px solid gray;
+	border-radius: 5px;
+}
+.KAPOK img
+{
+	height: 280px;
+	width: 100%;
+}
+.text 
+{
+	color: red;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.text hr 
+{
+	height: 3px;
+	width: 10%;
+	border: 0 none;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: black;
+}
+.KAPOK p 
+{
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	line-height: 18px;
+}*/
